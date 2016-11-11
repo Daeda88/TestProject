@@ -6,8 +6,8 @@
 //  Copyright © 2016 Gijs van Veen. All rights reserved.
 //
 
-import Foundation
-
-@objc class SwiftClass : SomeClass {
-    
-}
+//import Foundation
+//
+//@objc class SwiftClass : SomeClass {
+//    
+//}
