@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "8.3"
+inhibit_all_warnings!
+
+workspace 'TestProject.xcworkspace'
+
+project 'TestProject.xcodeproj'
+
+target "TestProject" do
+
+	project 'TestProject'
+ 
+	pod 'TestFramework', :path => '../TestFramework'
+end

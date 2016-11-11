@@ -1,0 +1,22 @@
+{
+  "name": "TestFramework",
+  "version": "1.0.0",
+  "summary": "Test Framework",
+  "description": "Tacx User Interface Components",
+  "homepage": "https://github.com/TacxDev/Tacx-iOS",
+  "license": "MIT",
+  "authors": {
+    "Eddy Pronk": "eddy@splendo.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "TestFramework/*.{h,m,mm,c,swift}",
+  "header_dir": "TestFramework",
+  "public_header_files": "TestFramework/OtherTest.h",
+  "source": {
+    "git": "https://github.com/TacxDev/Tacx-commons-iOS.git",
+    "tag": "1.0.0"
+  }
+}
